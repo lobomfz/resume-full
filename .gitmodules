@@ -1,0 +1,6 @@
+[submodule "resume-backend"]
+	path = resume-backend
+	url = https://github.com/lobomfz/resume-backend
+[submodule "self-building-resume"]
+	path = self-building-resume
+	url = https://github.com/lobomfz/self-building-resume
