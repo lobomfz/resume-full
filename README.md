@@ -21,10 +21,12 @@ access http://localhost/jenkins and get key by using the following command:
 docker exec -it resume-full-jenkins-1 cat /var/jenkins_home/secrets/initialAdminPassword
 
 create a jenkins user and get an api key on http://localhost/jenkins/me/configure
+
 create a pipeline job, default name is "Self Building Resume Pipeline"
 
 
 edit .env accordingly
+
 mv .env_template .env
 
 re-run compose (Control+c, then docker-compose up)
