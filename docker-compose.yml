@@ -9,6 +9,7 @@ services:
       - TOKEN=${TOKEN}
       - NODE_APP_API_ENDPOINT=${URL}
       - JENKINS_USERNAME=${JENKINS_USERNAME}
+      - JENKINS_JOB_NAME=${JENKINS_JOB_NAME}
     volumes:
       - ./resume-backend/src:/app/src
       - ./resume-backend/public:/app/public
