@@ -1,0 +1,10 @@
+FROM node:lts as build-stage
+
+COPY resume-backend/package.json /app
+
+WORKDIR /app
+RUN npm install
+
+WORKDIR /app
+EXPOSE 3333
+ENTRYPOINT npm start
