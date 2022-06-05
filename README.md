@@ -11,6 +11,9 @@ TODO:
 - Git cleanup
 
 How to set-up dev environment:
+
+git clone --recurse-submodules https://github.com/lobomfz/resume-full/ && cd resume-full
+
 docker-compose up
 
 access http://localhost/jenkins and get key by using the following command:
