@@ -1,4 +1,6 @@
 TODO:
+- Rate limit message
+- Clear console on success
 - Prettier console
 - Mobile-only stuff
 - Better jenkins/docker deployment?
