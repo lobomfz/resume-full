@@ -1,4 +1,4 @@
-FROM node:lts as build-stage
+FROM node:18 as build-stage
 
 COPY resume-backend/package.json /app
 
